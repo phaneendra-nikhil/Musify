@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('../layouts/head', {title: 'Home | Musify'})%>
+</head>
+<body>
+    <article class="page custom-scrollbar" data-page>
+        <%- include('../partials/top_bar', locals.currentProfile)%>
+        <% console.log(locals.currentProfile) %>
+    </article>
+</body>
+</html>
